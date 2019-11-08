@@ -11,7 +11,7 @@ public class academico extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_academico);
-        //Toast toast=new Toast()
-        //toast.show();
+        Toast toast=Toast.makeText(getApplicationContext(),"Horario de atencion siempre via iNTERNET",Toast.LENGTH_SHORT);
+        toast.show();
     }
 }
