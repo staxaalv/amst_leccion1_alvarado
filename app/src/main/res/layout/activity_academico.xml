@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F34F2C"
+    tools:context=".academico">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/academico" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="En caso de que no tenga usuario, no recuerde su usuario, o su usuario se encuentre bloqueado dirigirse a la página del GTSI, y escoger la opción del menú Cuenta Electrónica. "
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"/>
+</LinearLayout>
